@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 3rem;
+    background-color: #9c8f8f;
+}
+
+h1, h2 {
+    color: #333333;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(14, 13, 13);
+    border: 1px solid #0a0005;
+    margin: 0 1rem;
+}
+
+.btn:hover {
+    background-color: #58b8a8;
+    color: #800040;
+}
+
+.btn--alt {
+    background-color: transparent;
+    color: #800040;
+}
+
+.btn--alt:hover {
+    background-color: #9c1458;
+}
+
+.card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(red, green, blue, alpha);
+    padding: 1rem;
+    width: 20rem;
+}
+
+.actions {
+    text-align: right;
+}
+
+.modal {
+    box-shadow: 0 1px 4px rgba(red, green, blue, alpha);
+    border-radius: 6px;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    z-index: 10;
+}
